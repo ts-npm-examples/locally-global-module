@@ -1,0 +1,13 @@
+{
+    "typescript.tsdk": "node_modules/typescript/lib",
+
+    "[typescript]": {
+        "files.trimTrailingWhitespace": true,
+        "files.insertFinalNewline": true
+    },
+
+    "[typescriptreact]": {
+        "files.trimTrailingWhitespace": true,
+        "files.insertFinalNewline": true
+    }
+}
