@@ -1,7 +1,7 @@
 import { describe, it } from 'mocha';
 import { expect } from 'chai';
 
-import { padRight } from '../src';
+import { padRight, bar } from '../dist';
 
 describe('pad right', () =>
 {
@@ -17,5 +17,13 @@ describe('pad right', () =>
         const a = 'xD';
         const b = padRight(a, 6, 'D');
         expect(b).equals('xDDDDD');
+    });
+});
+
+describe('internal types', () =>
+{
+    it('just works', () =>
+    {
+        expect(bar()).equals('foo');
     });
 });

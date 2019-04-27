@@ -1,7 +1,7 @@
 import padLeft from 'left-pad';
 import { CommonType, reverse } from './reverse';
 
-export { CommonType } from './reverse';
+export { CommonType, bar } from './reverse';
 
 export function padRight(str: CommonType, len: number, ch?: CommonType)
 {
